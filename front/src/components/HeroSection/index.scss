@@ -1,0 +1,40 @@
+#Hero{
+  background-image: url("../../assets/h1_hero.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 80vh;
+  
+  .servicesTitle{
+    margin: 10% 0;
+   
+    width: 60%;
+    p{
+      font-size: 14px;
+      line-height: 36px;
+    }
+    h1{
+      font-size: 85px;
+      font-weight: 800;
+      color: #000000;
+      font-family: "Sarabun", sans-serif;
+    }
+    .lineTitle{
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      color: #eb566c;
+      h4{
+        font-weight: 300;
+      }
+      .orangeLine{
+       width: 80px;
+       height: 2px;
+       font-weight: 300;
+       background-color: #eb566c;
+      }
+      
+    }
+  }
+}

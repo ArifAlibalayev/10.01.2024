@@ -1,0 +1,19 @@
+#AddPage{
+  max-width: 60%;
+  margin: 100px auto;
+  .FormCss{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input{
+      padding: 10px 20px;
+    }
+    button{
+      width: 100px;
+    }
+  }
+}
+
+.ErrorCss{
+  color: red;
+}
